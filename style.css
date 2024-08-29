@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffc1073d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Moderustic", sans-serif;
+}
+.container_child{
+    width: 65%;
+    height:500px;
+    background-color: rgb(242 236 236 / 64%);
+    background-color: #ffffffbd;
+    /* padding: 10px; */
+    display: flex;
+    border-radius: 10px;
+    
+}
+.container_photo{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    background: url(./undraw_fingerprint_login_re_t71l.svg) no-repeat;
+    background-size:cover;
+    background-position: 50% 50%;
+}
+.container_form {
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 30px;
+    background-color: transparent;
+}
+form{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 20px 70px;
+}
+form h1{
+    font-family: "Moderustic", sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 20px;
+    font-size: 2.3rem;
+
+}
+input{
+    width: 100%;
+    padding: 15px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    /* border: none; */
+    border-bottom-color:gray ;
+    outline: none;
+    background-color: transparent;
+    border-top-color:transparent ;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #cb7559a1;
+    font-family: "Moderustic", sans-serif;
+    font-size: 1rem;
+    
+}
+.btn{
+    display: flex;
+    /* background-color: orange; */
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 15px 45px;
+    border-radius: 15px;
+    margin:20px 0;
+    text-align: center;
+    background-color: #ffa500de;
+    font-family: "Moderustic", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+    align-items: center;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: orange;
+    transition: 0.3s;
+}
+form p{
+    text-align: center;
+    margin: 20px;
+    color: gray;
+}
+form p:hover{
+    
+    cursor: pointer;
+    text-decoration:underline;
+    color: blue;
+}
